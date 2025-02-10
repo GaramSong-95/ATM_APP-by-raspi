@@ -1,0 +1,67 @@
+CC = aarch64-linux-gnu-gcc
+CFLAGS = -c -Wall
+LFLAGS = -lmariadb
+
+TARGETS = $(TARGET1) $(TARGET2) $(TARGET3) $(TARGET4) $(TARGET5) $(TARGET6) $(TARGET7) $(TARGET8) $(TARGET9)
+all: $(TARGETS)
+
+ifdef TARGET1
+TARGET1_OBJS = $(TARGET1).o 
+$(TARGET1): $(TARGET1_OBJS)
+	$(CC) -o $@ $(TARGET1_OBJS) $(LFLAGS)
+endif
+
+ifdef TARGET2
+TARGET2_OBJS = $(TARGET2).o
+$(TARGET2): $(TARGET2_OBJS)
+	$(CC) -o $@ $(TARGET2_OBJS) $(LFLAGS)
+endif
+
+ifdef TARGET3
+TARGET3_OBJS = $(TARGET3).o 
+$(TARGET3): $(TARGET3_OBJS)
+	$(CC) -o $@ $(TARGET3_OBJS) $(LFLAGS)
+endif
+
+ifdef TARGET4 
+TARGET4_OBJS = $(TARGET4).o
+$(TARGET4): $(TARGET4_OBJS)
+	$(CC) -o $@ $(TARGET4_OBJS) $(LFLAGS)
+endif
+
+ifdef TARGET5
+TARGET5_OBJS = $(TARGET5).o 
+$(TARGET5): $(TARGET5_OBJS)
+	$(CC) -o $@ $(TARGET5_OBJS) $(LFLAGS)
+endif
+
+ifdef TARGET6
+TARGET6_OBJS = $(TARGET6).o 
+$(TARGET6): $(TARGET6_OBJS)
+	$(CC) -o $@ $(TARGET6_OBJS) $(LFLAGS)
+endif
+
+ifdef TARGET7
+TARGET7_OBJS = $(TARGET7).o 
+$(TARGET7): $(TARGET7_OBJS)
+	$(CC) -o $@ $(TARGET7_OBJS) $(LFLAGS)
+endif
+
+ifdef TARGET8
+TARGET8_OBJS = $(TARGET8).o 
+$(TARGET8): $(TARGET8_OBJS)
+	$(CC) -o $@ $(TARGET8_OBJS) $(LFLAGS)
+endif
+
+ifdef TARGET9
+TARGET9_OBJS = $(TARGET9).o
+$(TARGET9): $(TARGET9_OBJS)
+	$(CC) -o $@ $(TARGET9_OBJS) $(LFLAGS)
+endif
+
+%.o:%.c
+	$(CC) $(CFLAGS) $<
+
+clean:
+	rm -f $(TARGETS) *.o
+
