@@ -1,5 +1,8 @@
 # Project-ATM
 
+![image](https://github.com/user-attachments/assets/56f60d8b-0e85-4c1e-97b0-6bab5c567ff7)
+
+
 ## 1. 프로젝트 개요
 
 **본 프로젝트는 Raspberry Pi 4와 LCD 디스플레이만을 사용하여 구현한 장난감 ATM 시스템입니다.
