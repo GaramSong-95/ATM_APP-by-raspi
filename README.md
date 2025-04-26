@@ -1,6 +1,8 @@
 # Project-ATM
 
-![image](https://github.com/user-attachments/assets/6f93931a-f0c4-4694-9187-7e72f662fd3f)
+
+![image](https://github.com/user-attachments/assets/5bc80aac-ca50-491a-b5cc-c4d1ffabcdf7)
+
 
 
 ## 1. 프로젝트 개요
