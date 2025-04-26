@@ -1,5 +1,5 @@
 # Project-ATM
-
+라즈베리파이4를 활용한 ATM 구현 프로젝트
 
 ![image](https://github.com/user-attachments/assets/5bc80aac-ca50-491a-b5cc-c4d1ffabcdf7)
 
