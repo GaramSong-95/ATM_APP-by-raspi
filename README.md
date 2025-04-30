@@ -3,6 +3,9 @@
 
 ![image](https://github.com/user-attachments/assets/5bc80aac-ca50-491a-b5cc-c4d1ffabcdf7)
 
+![image](https://github.com/user-attachments/assets/8951edf5-9ff8-4eb8-b117-c1c6cafbaeea)
+
+
 
 
 ## 1. 프로젝트 개요
