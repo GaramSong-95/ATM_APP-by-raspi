@@ -6,7 +6,25 @@
 ![image](https://github.com/user-attachments/assets/8951edf5-9ff8-4eb8-b117-c1c6cafbaeea)
 
 
+## 🛠 Tech Stack
 
+<!-- 하드웨어 및 시스템 -->
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+<!-- 언어 및 프로그래밍 -->
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Shell Script](https://img.shields.io/badge/Shell_Script-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
+<!-- 데이터베이스 -->
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+
+<!-- 영상처리 및 포맷 -->
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
+
+<!-- 기타 도구 -->
+![Framebuffer UI](https://img.shields.io/badge/Framebuffer-1E90FF?style=for-the-badge)
+![Multithreading](https://img.shields.io/badge/Multithreading-FF8C00?style=for-the-badge)
 
 ## 1. 프로젝트 개요
 
